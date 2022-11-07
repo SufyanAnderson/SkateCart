@@ -1,0 +1,256 @@
+body{
+ background-color: black;
+ color: white;
+}
+img{
+  height: 200px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.page-header {
+  background-image: url(img/skateboard-gif-12.gif);
+  background-size: 17rem;
+  height: 20rem;
+} 
+
+.forumStuff {
+  background-image: url(img/tumblr_nn8ht4zQx41s4fz4bo1_500.gif);
+  background-size: cover;
+}
+
+.well {
+  min-height: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.submit {
+  background:linear-gradient(to bottom, #000000 5%, #3bd8e3 100%);
+	background-color:#000000;
+	border-radius:28px;
+	border:1px solid #3c37db;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5c52f0;
+}
+
+.submit {
+  background:linear-gradient(to bottom, #3bd8e3 5%, #000000 100%);
+	background-color:#3bd8e3;
+}
+
+.jumbotron h1  {
+  color: black
+}
+
+.jumbotron p {
+  line-height: 1.4;
+  color: black;
+}
+
+/* codepen https://codepen.io/jweden/pen/kGBBpM?editors=0110 */
+.customList {
+  list-style: none;
+  line-break: normal;
+  width: 50%;
+  height:20rem;
+  display: flex;
+  justify-content: center;
+  background:rgb(70, 66, 186);
+  overflow:hidden;
+  margin:30px auto;
+  padding:20px;
+  border-radius:0 0 0 30px/45px;
+  box-shadow:
+    inset 0 -40px 40px rgba(0,0,0,0.2),
+    inset 0 25px 10px rgba(0,0,0,0.2),
+    0 5px 6px 5px rgba(0,0,0,0.2);
+  font-family: 'Permanent Marker', cursive;
+  line-height:1.7em;
+  font-size:14px;
+  color:#bd5f9c; 
+}
+
+span { 
+  line-break: auto;
+}
+
+.row {
+  width: 90% ;
+}
+
+.col-sm-6 {
+  width: 100%;
+}
+
+
+
+
+.activeListItem {
+  animation: blinkText 1s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes blinkBackground {
+    
+  0% {
+      background-color:  rgb(0, 0, 0);
+  }
+
+  20% {
+      background-color: rgb(230, 178, 186);
+  }
+
+  40% {
+      background-color:rgb(187, 0, 255);
+  }
+
+  60% {
+      background-color: steelblue;
+  }
+
+  80% {
+      background-color: greenyellow;
+  }
+
+  100% {
+      background-color: black;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+      background-color: rgb(31, 2, 251);
+  }
+
+  20% {
+      background-color: pink;
+  }
+
+  40% {
+      background-color: rgb(247, 0, 255);
+  }
+
+  60% {
+      background-color: steelblue;
+  }
+
+  80% {
+      background-color: greenyellow;
+  }
+
+  100% {
+      background-color: black;
+  }
+}
+
+
+@keyframes blink {
+  
+  0% {
+      border: 7px solid red;
+      border-radius: 4px;
+  }
+
+  20% {
+      border: 7px solid pink;
+      border-radius: 4px;
+  }
+
+  40% {
+      border: 7px solid yellow;
+      border-radius: 4px;
+  }
+
+  60% {
+      border: 7px solid steelblue;
+      border-radius: 4px;
+  }
+
+  80% {
+      border: 7px solid greenyellow;
+      border-radius: 4px;
+  }
+
+  100% {
+      border: 7px solid red;
+      border-radius: 4px;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+      border: 7px solid red;
+      border-radius: 4px;
+  }
+
+  20% {
+      border: 7px solid pink;
+      border-radius: 4px;
+  }
+
+  40% {
+      border: 7px solid yellow;
+      border-radius: 4px;
+  }
+
+  60% {
+      border: 7px solid steelblue;
+      border-radius: 4px;
+  }
+
+  80% {
+      border: 7px solid greenyellow;
+      border-radius: 4px;
+  }
+
+  100% {
+      border: 7px solid red;
+      border-radius: 4px;
+  }
+}
+
+/* @keyframes blinkText {
+    
+  0% {
+      color:  rgb(102, 97, 247);
+  }
+
+  20% {
+      color: rgb(255, 59, 170);
+  }
+
+  40% {
+      color:rgb(68, 47, 189);
+  }
+
+  60% {
+      color: rgb(40, 182, 243);
+  }
+
+  80% {
+      color: rgb(85, 47, 255);
+  }
+
+  100% {
+      color: rgb(70, 168, 233);
+  }
+} */
+
+@keyframes blinkText {
+    
+  0% {
+      
+  }
+  100% {
+    text-decoration: line-through;
+  }
+}
